@@ -3,27 +3,36 @@
 
 <header>
   <title>Copy Cafe</title>
-  <a href="About us">About us</a>
-  <a href="our menu">Our Menu</a>
-  <a href="order now">Order Now</a>
-  <a href="Contact us">Contact Us</a>
+  <link href="style.css" rel="stylesheet">
+  
+  <a href="/index.html">Home</a>
+  <a href="/about-us.html">About us</a>
+  <a href="/menu.html">Our Menu</a>
+  <a href="/order.html">Order Now</a>
+  <a href="/contact.html">Contact Us</a>
+
+  <br>
+  <h1 class='title uppercase' id="article-title">Copycafe Alor Gajah</h1>
+  <h5 id='dipersembahkan'>dipersembahkan oleh Rempah Cik Nun</h5>
+</header>
+
+<!-- class='author' id='author-id' -->
 
 <br>
-<h1>COPYCAFE ALOR GAJAH</h1>
-<h5>dipersembahkan oleh Rempah Cik Nun</h5>
- </header>
-  
-<br>
- <img src="https://cafe-kiel.de/wp-content/uploads/2021/03/kaffee-kiel-cafe-brunch.jpg" width="950" height="450">
+<img src="https://cafe-kiel.de/wp-content/uploads/2021/03/kaffee-kiel-cafe-brunch.jpg" width="950" height="450">
+
 <body>
+  <!-- About Us Section -->
   <h2>About Us</h2>
-  <p>Founded by Mrs. Siti Zainun and her husband, Mr. Oluwamabide and are located in small town in Alor Gajah Malacca, Malaysia.
+  <p>Founded by Mrs. Siti Zainun and her husband, Mr. Oluwamabide and are located in small town in Alor Gajah Malacca,
+    Malaysia.
     <br>
-    <em>Nasi Arab</em> was their specialty as the spices are <strong>hand-made</strong> by Mrs. Siti or we call Cik Nun. They even sell their own spices which are <br>
+    <em>Nasi Arab</em> was their specialty as the spices are <strong>hand-made</strong> by Mrs. Siti or we call Cik Nun.
+    They even sell their own spices which are <br>
     known as <strong>Rempah Cik Nun</strong>
   </p>
-  
-  <h1>Our Menu</h1>
+
+  <h1 class='heading-background'>Our Menu</h1>
   <table style="width:45%">
     <tr>
       <th>Menu</th>
@@ -69,13 +78,14 @@
 
   </table>
 
-  <section class="overlay">
+  <section>
     <h1>Be our Supporter</h1>
     <p>Create an Account with us</p>
     <form action="submission.html" method="GET">
       <label for="username">Username</label>
       <br>
       <input id="username" name="username" type="text" required="[a-z0-Z0-]" minlength="5" maxlength="15">
+      <br>
 
       <label for="password">Password</label>
       <input id="pw" type="password" required minlength="8" maxlength="10">

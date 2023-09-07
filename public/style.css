@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p { color: olive;
+    font-variant: small-caps
+  }
+  h1 {
+    color: Maroon;
+  }
+  * {
+    font-family:
+      Verdana;
+  }
+  .title { color: purple; 
+    
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  #article-title {
+    font-family: courier
+  }
+  a[href*="about us"] {color: green; }
+  
+  a:hover {background-color: lightgrey; }
+  .heading-background {color: cornflowerblue; }
+  #dipersembahkan {color: gray}
+  
+  .main-list li { color: orange}
+  
+  h1 th { color: gold}
+  
+  table, th {font-family: monospace}
